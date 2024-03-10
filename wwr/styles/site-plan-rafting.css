@@ -10,8 +10,8 @@ body {
     --accent1-color: #c9bfc4;
     --accent2-color: #a43312;
   
-    --heading-font: 'PT Serif', serif;
-    --paragraph-font: 'Playfair Display', serif;
+    --heading-font: "PT Serif", serif;
+    --paragraph-font: "Roboto", sans-serif;
   
     --nav-background-color: #AABD8C;
     --nav-link-color: #396E94;
