@@ -1,5 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap')
+
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
@@ -11,8 +12,8 @@ body {
     --accent1-color: #c9bfc4;
     --accent2-color: #a43312;
   
-    --heading-font: 'Young Serif', serif;
-    --paragraph-font: 'PT Serif', serif;
+    --heading-font: 'PT Serif', serif;
+    --paragraph-font: 'Playfair Display', serif;
   
     --nav-background-color: #AABD8C;
     --nav-link-color: #396E94;
