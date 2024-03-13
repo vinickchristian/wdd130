@@ -1,5 +1,5 @@
 
-*widcard{
+*{
     margin:0;
     padding: 0;
     box-sizing: border-box;
@@ -47,7 +47,12 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
-}/* Class selectors */
+}
+
+/* ====================================
+   Class Selectors
+======================================= */
+
 .box{
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 1);
