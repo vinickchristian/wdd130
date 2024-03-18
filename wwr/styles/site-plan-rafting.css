@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&family=Roboto&display=swap');
   
 body{
   font-family: var(--paragraph-font);
@@ -7,27 +6,29 @@ body{
   padding: 20px;
 }
 :root {
-    --primary-color: #396E94;
-    --secondary-color:#E7C24F;
-    --accent1-color: #c9bfc4;
+    --primary-color: #0f69cf;
+    --secondary-color:#a33d92;
+    --accent1-color: #b484d3e7;
     --accent2-color: #a43312;
   
-    --heading-font: "PT Serif", serif;
+    --heading-font:"IM Fell Double Pica SC", serif;
     --paragraph-font: "Roboto", sans-serif;
   
-    --nav-background-color: #AABD8C;
-    --nav-link-color: #396E94;
+    --nav-background-color: #9abd8c;
+    --nav-link-color: #0011ff;
     --nav-hover-link-color: #2B5370;
-    --nav-hover-background-color: #716D5B;
+    --nav-hover-background-color: #fa0000;
   }
   body{
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
+    color: var(--secondary-color);
   }      
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    
   }
   header {
     padding: 20px;
@@ -35,6 +36,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   p {
     padding: 25px; 
+    
   }
   nav {
     background-color: var(--nav-background-color);
