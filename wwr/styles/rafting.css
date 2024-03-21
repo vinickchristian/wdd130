@@ -43,7 +43,8 @@ background-color: #03040586;
 .grid img{
   width: 290px;
   right: 140px;
-position: absolute;
+float: right;
+  position: absolute;
 margin-right: 430px;
 margin-top: 3px;
 }
@@ -122,19 +123,7 @@ nav ul li a {
   grid-row:3/3 ;
 
 }
-/*Styling the Adventures section of five images to span the section
-  horizontal using a grid CSS layout method */
-.adventure{
-  display: grid;
-   grid-template-columns: 500px  500px;
-  grid-template-rows:50px repeat(3, 12.5rem);
-  gap: 3rem;
-}
-.title{
-  margin-bottom: 2rem;
-  grid-row: 1/2;
-  grid-column: 1/2;
-}
+
 
 .photo img{
 grid-row-start: 2;
@@ -144,10 +133,14 @@ margin: 5px;
   height: 100%;
   border-radius: 5px;
   object-fit: cover;
-}
+}/*Styling the Adventures section of five images to span the section
+  horizontal using a grid CSS layout method */
  /* Ussing figure elements to contain the img elements and use figcaption captions for each figure image */
   figure {
- 
+    display: grid;
+    grid-template-columns: 500px  500px;
+   grid-template-rows: repeat(3, 12.5rem);
+   gap: 3rem;
   padding: 3px;
   max-width: 610px;
 
