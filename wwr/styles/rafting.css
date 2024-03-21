@@ -123,31 +123,33 @@ nav ul li a {
   grid-row:3/3 ;
 
 }
+.title{
+  text-align: center;
+}
+.place{
+    display: flex;
+    flex-flow: row wrap;
 
+  }
 
-.photo img{
-grid-row-start: 2;
-grid-column: 1;
+.photo img {
 margin: 5px;
-   width: 100%;
-  height: 100%;
+   width: 400px;
+  height: 260px;
   border-radius: 5px;
   object-fit: cover;
-}/*Styling the Adventures section of five images to span the section
-  horizontal using a grid CSS layout method */
- /* Ussing figure elements to contain the img elements and use figcaption captions for each figure image */
-  figure {
-    display: grid;
-    grid-template-columns: 500px  500px;
-   grid-template-rows: repeat(3, 12.5rem);
-   gap: 3rem;
-  padding: 3px;
-  max-width: 610px;
-
+   
 }
+ /* Ussing figure elements to contain the img elements and use figcaption captions for each figure image */
+  
 
+figure {
+  border: thin #c0c0c0 ;
+  display: flex;
+  flex-flow: column;
+}
 figcaption {
-
+  object-fit: cover;
   background-color: #2a3e69;
   color: #fff;
   font: italic smaller sans-serif;
