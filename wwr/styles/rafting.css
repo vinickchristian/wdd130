@@ -94,7 +94,7 @@ align-items: center;
 nav{
  display: flex;
 text-align: right;
-font-size: larger;
+font-size: xx-large;
 font: bold;
 }
 nav ul {
