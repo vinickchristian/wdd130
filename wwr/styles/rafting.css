@@ -46,7 +46,7 @@ background-color: #03040586;
 float: right;
   position: absolute;
 margin-right: 430px;
-margin-top: 3px;
+margin-top: 10px;
 }
 .grid p{
   width: 870px; 
@@ -54,7 +54,7 @@ margin-top: 3px;
 background:#10056daf;
 text-align:left;
 color: aliceblue;
-padding: 90px;
+padding: 80px;
 }
 
 body{
@@ -94,7 +94,8 @@ align-items: center;
 nav{
  display: flex;
 text-align: right;
-
+font-size: larger;
+font: bold;
 }
 nav ul {
  list-style-type: none;
@@ -169,6 +170,7 @@ figcaption {
 footer p{
   grid-column: 1/2;
   font-size: medium;
+  text-align: center;
 }
 .sociallinks img{
 grid-column: 2/3;
