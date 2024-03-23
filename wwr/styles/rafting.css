@@ -77,7 +77,7 @@ h2{
 
 header{
  height: auto;
- background-color: #f09540;
+ background-color: #6aad8b;
  padding: 10px;
 } 
 .container{
@@ -163,6 +163,8 @@ figcaption {
   grid-template-rows: 1fr;
   align-items: center;
   margin: 10px;
+  background-color: #51e4b3;
+  padding: 20px;
 }
 .end{
   margin: 3rem;
@@ -176,4 +178,7 @@ footer p{
 grid-column: 2/3;
 width: 2rem;
 display: inline;
+}
+footer{
+  
 }
