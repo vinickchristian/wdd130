@@ -16,7 +16,9 @@ nav a {
 }
 h1 {
     color: rgb(23, 129, 216);
-    border-bottom:1rem solid white;
+    border-bottom:2px solid rgb(60, 129, 207);
+    margin: 1rem;
+    padding: 10px;
 }
 img {
     width: 150px;
