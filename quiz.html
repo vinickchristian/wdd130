@@ -11,14 +11,14 @@
   <h1>Basic HTML and CSS Quiz</h1>
 
   <form action="process_quiz.php" method="post">
-    <ol>
-    <label for="q1"><li>What is the correct HTML tag to make text bold?</li></label>
+    
+    <label for="q1"><ol><li>What is the correct HTML tag to make text bold?</li></ol></label>
     <input type="text" name="q1" id="q1"> <br>
 
-    <label for="q2"><li>Briefly explain the difference between using &ltul&gt (unordered list) and &ltol&gt (ordered list) tags in HTML.</li></label>
+    <label for="q2"><ol><li>Briefly explain the difference between using &ltul&gt (unordered list) and &ltol&gt (ordered list) tags in HTML.</li></ol></label>
     <textarea name="q2" id="q2" rows="5" cols="30"></textarea> <br>
 
-    <label for="q3"><li>Which CSS property is used to change the background color of an element?</li></label>
+    <label for="q3"><ol><li>Which CSS property is used to change the background color of an element?</li></ol></label>
     <select name="q3" id="q3">
       <option value="" selected disabled>Choose One ...</option>
       <option value="background">background</option>
@@ -26,9 +26,9 @@
       <option value="color">color</option>
     </select> <br>
 
-    <label for="q4"><li>How many heading levels (H1-H?) are there in HTML by default?</li></label>
+    <label for="q4"><ol><li>How many heading levels (H1-H?) are there in HTML by default?</li></ol></label>
     <input type="number" name="q4" id="q4"> <br>
-</ol>
+
     <button type="submit">Submit Quiz</button>
   </form>
 </body>
